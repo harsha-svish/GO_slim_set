@@ -7,7 +7,7 @@ It is defined in three aspects:
 2. Cellular compononet - The locations relative to cellular structures in which a gene product performs a function.
 3. Biological prcoess - the larger processes accomplished by moleclar activites.
 
-##Usage:
+## Usage:
 usage: goterms.py [-h] str
 
 positional arguments:
@@ -24,15 +24,15 @@ GO:0005814      level-05        depth-05        centriole [cellular_component]
 ##Installations:
 Your python environment must be set up with:
 
-<pip install goatools>
+'pip install goatools'
 
 To install the development version:
 
-<pip install git+git://github.com/tanghaibao/goatools.git>
+'pip install git+git://github.com/tanghaibao/goatools.git'
 
 .obo file for the most current GO:
 
-<wget http://geneontology.org/ontology/go-basic.obo>
+'wget http://geneontology.org/ontology/go-basic.obo'
 
 
 ###Yet to update:
