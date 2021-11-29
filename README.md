@@ -21,22 +21,29 @@ The input for this program can be a single GO term or GO terms stored as a text 
 The output for the program is given as for the GO:0005814  is shown as:
 GO:0005814      level-05        depth-05        centriole [cellular_component]
 
-##Installations:
+## Installations:
 Your python environment must be set up with:
 
-'pip install goatools'
+'''
+pip install goatools
+'''
 
 To install the development version:
 
+'''
 'pip install git+git://github.com/tanghaibao/goatools.git'
+'''
 
 .obo file for the most current GO:
 
+'''
 'wget http://geneontology.org/ontology/go-basic.obo'
+'''
 
-
-###Yet to update:
+### Yet to update:
 Test suite,
 Function or option to sift through Biological process, Molecular function and Cellular compononet.
+
+___________________________________________________
 
 Author: Sri Harsha Vishwanath
