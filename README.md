@@ -21,9 +21,9 @@ optional arguments:
 The input for this program can be a single GO term or GO terms stored as a text file.
 
 The output for the program is given as for the GO:0005814  is shown as:
-'''
+```
 GO:0005814      level-05        depth-05        centriole [cellular_component]
-'''
+```
 
 ## Installations:
 Your python environment must be set up with:
