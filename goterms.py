@@ -15,7 +15,7 @@ def get_args():
     """Get command-line arguments"""
 
     parser = argparse.ArgumentParser(
-        description="Rock the Casbah",
+        description="Go term obtainer",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
 
