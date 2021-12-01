@@ -1,7 +1,5 @@
 """ Tests for goterm.py """
 
-# pylint:disable=consider-using-with,unspecified-encoding
-
 import os
 from subprocess import getstatusoutput, getoutput
 
@@ -11,39 +9,46 @@ SAMPLE2 = "input/input2.txt"
 
 
 # --------------------------------------------------
-def run(seq, expected_file):
+def test_exists():
+    """Program exists"""
+
+    assert os.path.isfile(PRG)
+
+
+# --------------------------------------------------
+def run(expected_file):
     """Run test"""
 
     assert os.path.isfile(expected_file)
     expected = open(expected_file).read().rstrip()
-    rv, out = getstatusoutput(f"{PRG} {seq}")
+    rv, out = getstatusoutput(f"{PRG}")
     assert rv == 0
     assert out.strip() == expected
 
 
 # --------------------------------------------------
 def test1():
-    """test"""
+    """bad test"""
 
     run("foo", "./expected/foo.out")
 
 
 # --------------------------------------------------
 def test2():
-    """test"""
+    """good test"""
 
     run("GO:0005739", "./expected/go.out")
 
 
 # --------------------------------------------------
 def test3():
-    """test"""
+    """good test file"""
 
-    run("input/input", "./expected/AAAAA.out")
+    run("SAMPLE1", "./expected/output1.out")
 
 
 # --------------------------------------------------
 def test4():
-    """test"""
+    """bad test file"""
 
-    run("ACGT", "./expected/ACGT.out")
+    run("SAMPLE2", "./expected/output2.out")
