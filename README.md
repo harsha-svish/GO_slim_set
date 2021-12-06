@@ -4,7 +4,7 @@ Program: to find GO terms from a given text file
 Gene Ontology or GO are a formal respresentatio desrcibing the biological domain with relations to operate them.
 It is defined in three aspects:
 1. Molecular function - Molecular level activities performed by gene products.
-2. Cellular compononet - The locations relative to cellular structures in which a gene product performs a function.
+2. Cellular component - The locations relative to cellular structures in which a gene product performs a function.
 3. Biological prcoess - the larger processes accomplished by moleclar activites.
 
 ## Usage:
