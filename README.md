@@ -45,7 +45,6 @@ wget http://geneontology.org/ontology/go-basic.obo
 ```
 
 ### Yet to update:
-Test suite,
 Function or option to sift through Biological process, Molecular function and Cellular compononet.
 
 ___________________________________________________
